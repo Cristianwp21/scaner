@@ -1,7 +1,9 @@
 name: meu_projeto
 channels:
   - defaults
+  - conda-forge
 dependencies:
   - python=3.8
   - requests=2.25.1
   - numpy>=1.19.5
+  - ccxt
