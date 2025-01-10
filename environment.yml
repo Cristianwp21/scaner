@@ -1,11 +1,9 @@
-name: bot_env
+name: meu_projeto
 channels:
   - defaults
 dependencies:
-  - python=3.9  # Substitua pela versão que você está usando
-  - pip
+  - python=3.8
+  - requests=2.25.1
+  - numpy>=1.19.5
   - pip:
-      - requests
-      - python-binance
-      - pandas
-      - ta
+      - pacote_somente_pip
