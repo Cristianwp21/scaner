@@ -1,0 +1,11 @@
+name: bot_env
+channels:
+  - defaults
+dependencies:
+  - python=3.9  # Substitua pela versão que você está usando
+  - pip
+  - pip:
+      - requests
+      - python-binance
+      - pandas
+      - ta
